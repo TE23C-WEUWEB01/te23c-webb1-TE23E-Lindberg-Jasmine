@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-image: url("./bilder/camille-minouflet-d7M5Xramf8g-unsplash\ \(1\).jpg");
+    background-position: 0 -100px;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 100px;
+    color: pink;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h2 {
+
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    color: pink;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 rgb(255, 255, 255);
+    margin-top: 75px;
+    margin-left: 100px;
+
+}
+
+p {
+
+    font-family: "Lobster", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-left: 900px;
+}
+
+a {
+    font-family: "Lobster", sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: pink;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+
+}
