@@ -39,9 +39,6 @@ p {
 a {
     font-family: "Lobster", sans-serif;
     color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: pink;
     padding-left: 50px;
     padding-top: 10px;
     padding-right: 50px;

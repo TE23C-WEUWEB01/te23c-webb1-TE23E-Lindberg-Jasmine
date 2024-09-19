@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+
+body
+{
+
+background-image: url(./bilder/Hello\ Kitty\ SVG\,\ PNG\,\ JPG\ files_\ Digital\ download.\ _\ Inspire\ Uplift);
+background-repeat: no-repeat;
+background-position: 400px 100px;
+background-size: 400px;
+background-color: pink;
+}
+h1
+{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 500px ;
+    color: #fff;
+
+}
+
+
+
+h2
+{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 500px ;
+    margin-left:550px;
+    color: #fff;
+
+}
+
+p
+{
+
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #fff ;
+    background-color: rgb(226, 164, 175);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border: 2px soild #fff;
+    border-radius: 10px;
+
+   
+
+}
+
