@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
+body.sida1 {
+    background-image: url(./bilder/vintage\ floral\ patternsoft\ blue\ and\ beige.jpg);
+}
+body.sida2{
+background-image: url(./bilder/nedladdning\ \(3\).jpg);
+}
+body.sida3{
+  background-image: url(./bilder/_Premier\ Prints\ Fabric\ -\ Jamestown\ Baby\ Pink\ -\ 54__\ wide_.jpg);  
+}
+body.sida4{
+background-image: url(./bilder/7\,733\,000+\ Floral\ Background\ Pictures.jpg);
+}
+body.sida5{
+background-image: url(./bilder/nedladdning\ \(2\).jpg);
+}
+body.sida6{
+background-image: url(./bilder/nedladdning\ \(4\).jpg);
+}
+
+
+div {
+    background-color: #f5efe3;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px dashed rgb(121, 135, 171);
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #5e648b;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #5e648b;
+    font-size: 20px;
+}
+
+a {
+
+    font-size: 40px;
+text-decoration: none;
+color: #5e648b;
+}
