@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
 
 body.sida1 {
-    background-image: url(./bilder/vintage\ floral\ patternsoft\ blue\ and\ beige.jpg);
+background-image: url(./bilder/vintage\ floral\ patternsoft\ blue\ and\ beige.jpg);
 }
 body.sida2{
 background-image: url(./bilder/nedladdning\ \(3\).jpg);
@@ -30,6 +30,27 @@ div {
     border: 5px dashed rgb(121, 135, 171);
     padding: 20px;
 }
+
+div.sida2{
+
+    background-color: #ffffff;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px dashed rgb(255, 190, 216);
+    padding: 20px;
+
+
+}
+div.sida3{
+
+
+
+
+
+}
+
+
 
 h1 {
     font-family: "Lato", sans-serif;
