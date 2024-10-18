@@ -21,30 +21,63 @@ ul {
     padding: 0;
 }
 
-
-
-body {}
+body {
+    background-color: rgb(64, 82, 101);
+}
 
 /* Sidans layout  */
 div.sidan {
 
-    width: 500px;
-    margin: auto; 
-    
+    width: 800px;
+    margin: auto;
+    border: 1 solid #242941;
+   
+    background-color: #242941;
+    box-shadow: 0 0 50px #fff;
 }
 
-div.inlägg {}
-
+div.inlägg {
+    margin-left: 80px;
+    border: 1px solid #5763a1;
+    border-radius: 1px;
+    margin-right: 70px;
+    background: #5763a1;
+}
 
 /* Sidans innehåll */
 
+h1 {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 80px;
+    margin-left: 180px;
+    color: aliceblue;
+    text-shadow: 3px 3px #5763a1;
+}
 
-h1 {}
+h2 {
 
-h2 {}
+    color: aliceblue;
+    margin-left: 120px;
+}
 
-img{}
+img {
 
-p.datum {}
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 60px;
+    border: 10px solid #7e8cd0;
+    border-radius: 3px;
 
-p {}
+}
+
+p.datum {
+    margin-left: 120px;
+    color: aliceblue;
+}
+
+p {
+    margin-left: 120px;
+    margin-top: 10px;
+    color: aliceblue;
+}
