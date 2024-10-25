@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Sidans bakgrund */
+html { 
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+  padding: 0;
+}
+
+
+body {
+    background-color: #434343;
+}
+
+/* Kontainern utseende  */
+.kontainer {
+
+width: 800px;
+margin: auto;
+padding: 50px;
+}
+
+h1 {
+
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+
+h2 {
+
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 170x;
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+
+
+.rubrik{
+
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aliceblue;
+ 
+    
+}
+
+/* Boxarnas utseende */
+.bild {
+background-color: #000;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+.bildhöger{
+
+
+    background-color: #000;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+img{
+width: 190px;
+margin-bottom: 20px;
+border-radius: 50%;
+
+
+}
+
+h3 {
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aliceblue;
+}
+
+p {  font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: aliceblue;
+    font-style: normal;
+    margin-left: 10px;
+}
+    
+
+a {}
