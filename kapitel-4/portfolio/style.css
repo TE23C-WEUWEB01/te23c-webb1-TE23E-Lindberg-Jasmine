@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+
+html {
+   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* sidans layout */
+
+Body {
+
+   background-color: #f7f7f2
+}
+
+.kontainer {
+
+   width: 800px;
+   margin: auto;
+   background-color: #e4e6c3;
+
+   padding-left: 70px;
+   padding-right: 70px;
+   border: 10px;
+
+}
+
+.bild {
+
+   background-color: #899878;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 50px;
+   padding-top: 50px;
+
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+
+
+
+
+}
+
+/* sidans innehåll */
+
+h1 {
+
+   margin-left: 190px;
+   padding-bottom: 20px;
+   font-family: "DM Serif Display", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #899878;
+   font-size: 50px;
+   
+
+
+}
+
+
+.rubrik{
+
+
+
+
+}
+
+
+p {
+
+   margin-left: 40px;
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #899878;
+   padding-bottom: 30px;
+
+}
+
+
+.bildtext {
+
+   padding-top: 50;
+   margin-left: 40px;
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #e4e6c3;
+
+}
+
+img {
+
+   width: 199px;
+
+
+
+}
+
+.reverse {
+
+   display: flex;
+   flex-direction: row-reverse;
+   gap: 10px;
+
+
+
+}
