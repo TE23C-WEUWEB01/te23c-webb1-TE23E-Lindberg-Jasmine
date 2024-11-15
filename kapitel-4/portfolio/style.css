@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bree+Serif&family=DM+Serif+Display:ital@0;1&display=swap');
 
 
-
 html {
    box-sizing: border-box;
 }
@@ -49,8 +48,8 @@ Body {
 .bild {
 
    background-color: #899878;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding-left: 5px;
+   padding-right: 20px;
    padding-bottom: 50px;
    padding-top: 50px;
 
@@ -58,15 +57,23 @@ Body {
    flex-direction: row;
    gap: 10px;
 
+   border-radius: 10px;
+   border: 3px solid #6d8874;
 
+}
 
-
+.rubrik {
+   font-family: "DM Serif Display", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #6d8874;
+   font-size: 20px;
+   padding-top: 20px;
 }
 
 /* sidans innehåll */
 
 h1 {
-
    margin-left: 190px;
    padding-bottom: 20px;
    font-family: "DM Serif Display", serif;
@@ -74,19 +81,7 @@ h1 {
    font-style: normal;
    color: #899878;
    font-size: 50px;
-   
-
-
 }
-
-
-.rubrik{
-
-
-
-
-}
-
 
 p {
 
@@ -99,10 +94,9 @@ p {
 
 }
 
-
 .bildtext {
 
-   padding-top: 50;
+   padding-top: 40px;
    margin-left: 40px;
    font-family: "Abel", sans-serif;
    font-weight: 400;
@@ -114,9 +108,7 @@ p {
 img {
 
    width: 199px;
-
-
-
+   padding-left: 10px;
 }
 
 .reverse {
@@ -124,7 +116,38 @@ img {
    display: flex;
    flex-direction: row-reverse;
    gap: 10px;
+   
+
+}
+
+a {
+
+   padding-top: 300px;
+   color: #474c3e;
+}
+
+table{
+
+   
+
+}
 
 
+li{
+
+   margin-left: 40px;
+   font-family: "Abel", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #899878;
+   padding-bottom: 10px;
+
+}
+
+
+.tack{
+
+margin-left: 200px;
+padding-top: 10px;
 
 }
