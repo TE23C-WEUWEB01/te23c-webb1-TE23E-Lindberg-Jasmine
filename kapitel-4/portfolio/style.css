@@ -30,14 +30,16 @@ ul {
 
 Body {
 
-   background-color: #f7f7f2
+  
+background-image: url(./bilder/After\ spring\ rain\ 004.jpg);
+
 }
 
 .kontainer {
 
    width: 800px;
    margin: auto;
-   background-color: #e4e6c3;
+   background-color: #e4e6c3b6;
 
    padding-left: 70px;
    padding-right: 70px;
@@ -122,9 +124,20 @@ img {
 
 a {
 
-   padding-top: 300px;
-   color: #474c3e;
+padding-top: 300px;
+color: #474c3e;
+text-decoration: none;
+
+
 }
+
+
+a:hover{
+
+
+
+}
+
 
 table{
 
