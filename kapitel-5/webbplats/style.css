@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Purple+Purse&display=swap');
+
+html {
+   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* Layoutens utseende */
+
+body {
+   background-color: #849668;
+}
+
+.kontainer {
+
+   width: 700px;
+   padding: 20px;
+   margin: auto;
+   background-color: #97a97c;
+
+}
+
+/* Menyns utseende */
+
+ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+li {
+
+list-style-type: none;
+
+}
+
+a {
+
+   text-decoration: none;
+   color: #87986a;
+   background-color: #b5c99a;
+   padding: 10px 20px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 0 #545c45;
+
+}
+
+a:hover{
+
+background-color: #22271d;
+
+}
+
+/* Innehållet */
+
+h1 {
+
+   font-family: "Purple Purse", serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-left: 100px;
+   color: #d6e2c7;
+   padding-bottom: 20px;
+   font-size: 50px;
+
+}
+
+figure {
+
+background:#717a62;
+
+
+}
+
+img {
+
+   width: 300px;
+   margin-left: 110px;
+   
+
+}
+
+figcaption {
+
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   color: #272b20;
+   margin: auto;
+   margin-left: 50px;
+   font-size: 10px;
+   padding: 20px;
+
+
+}
+
+p {
+
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   color: #545c45;
+
+}
+
+.tack {
+
+text-decoration: none;
+
+}
