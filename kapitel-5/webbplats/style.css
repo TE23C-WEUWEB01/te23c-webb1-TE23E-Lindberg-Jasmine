@@ -37,6 +37,7 @@ body {
    padding: 20px;
    margin: auto;
    background-color: #97a97c;
+   padding-top: 10px;
 
 }
 
@@ -48,13 +49,13 @@ ul {
 }
 
 
-li {
+.kontainer ul li {
 
 list-style-type: none;
 
 }
 
-a {
+.kontainer ul a {
 
    text-decoration: none;
    color: #87986a;
@@ -65,7 +66,13 @@ a {
 
 }
 
-a:hover{
+.kontainer ul .aktiv{
+
+   background-color: #22271d;
+
+
+}
+.kontainer ul a:hover{
 
 background-color: #22271d;
 
@@ -85,6 +92,9 @@ h1 {
 
 }
 
+
+
+
 figure {
 
 background:#717a62;
@@ -94,6 +104,7 @@ background:#717a62;
 
 img {
 
+   margin-top: 20px;
    width: 300px;
    margin-left: 110px;
    
@@ -123,8 +134,10 @@ p {
 
 }
 
-.tack {
-
+.kontainer .tack  a{
+margin-top: 14px;
 text-decoration: none;
+margin-top: 20px;
+font-style: italic;
 
-}
+} 
