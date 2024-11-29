@@ -45,7 +45,7 @@ body {
 
 ul {
    display: flex;
-   justify-content: space-between;
+   gap: 10px;
 }
 
 
@@ -58,7 +58,7 @@ list-style-type: none;
 .kontainer ul a {
 
    text-decoration: none;
-   color: #87986a;
+   color: #9C937E;
    background-color: #b5c99a;
    padding: 10px 20px;
    border-radius: 5px;

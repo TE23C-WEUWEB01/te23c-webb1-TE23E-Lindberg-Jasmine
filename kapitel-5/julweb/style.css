@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Parkinsans:wght@300..800&display=swap');
+
+html { 
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+  padding: 0;
+}
+
+
+/* Layotens utseende */
+
+body{
+
+background-color: #393C28;
+
+}
+
+.kontainer{
+
+  width: 800px;
+  margin: auto;
+  background-color: #696C49;
+
+}
+
+
+
+
+
+/* Menyns utseende */
+
+.kontainer ul{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.kontainer ul li{
+
+    list-style-type: none;
+
+}
+
+
+.kontainer ul a{
+
+    text-decoration: none;
+    color: #87986a;
+    background-color: #1D2819;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 #393C28;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+
+.inne{
+
+border: 1px solid #696C49;
+background-color: #86895d;
+width: 600px;
+margin-left: 100px;
+margin-top: 50px;
+
+
+}
+
+
+/* Innehåll */
+
+
+h1{
+
+padding-top: 60px;
+margin-top: 60px;
+padding-bottom: 70px;
+font-family: "Marcellus", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 70px;
+margin-left: 180px;
+
+
+}
+
+img{
+
+width: 250px;
+padding: 10px;
+margin-left: 100px;
+padding-top: 20px;
+display: flex;
+flex-direction: row;
+
+
+}
+
+p{
+
+
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #1D2819;
+    margin-left: 20px;
+
+}
+
+
+figure{}
+
+
+figcaption{
+
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 10px;
+    margin-left: 100px;
+
+
+}
+
+.tack{
+
+margin-top: 19px;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
