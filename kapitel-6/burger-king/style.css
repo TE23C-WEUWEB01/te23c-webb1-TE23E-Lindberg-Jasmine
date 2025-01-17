@@ -1,14 +1,27 @@
-html { 
-   box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+html {
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-body, h1, h2, h3, h4, h5, h6, p, ul {
-   margin: 0;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
   padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
 
 /*  
@@ -24,27 +37,113 @@ typsnitt = modak
   font-weight: 400;
   font-style: normal;
 
-*/ 
+*/
 
 
 /* sidlayouten */
 
-body{}
-.kontainer{}
+body {
+
+  background-color: #fbf7f1;
+
+}
+
+
+.konteiner {
+
+  width: 1200px;
+  margin: auto;
+  font-family: "Modak", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #502314;
+
+}
 
 /* sidhuvud */
 
-.sidhuvud{}
-.sidhuvud .meny{}
-.sidhuvud .meny a{}
-.sidhuvud .erbjudanden{}
+.sidhuvud {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+.sidhuvud .meny {
+
+  padding: 15px;
+}
+
+.sidhuvud .meny a {
+
+  text-decoration: none;
+  color: #502314;
+  padding: 20px 10px;
+
+}
+
+.sidhuvud .erbjundaneden {
+
+  text-decoration: none;
+  color: #d62300;
+  padding: 10px;
+  border: 2px solid #d62300;
+  border-radius: 5px;
+
+}
 
 
 /* sidinnehållet */
 
-.innehall{}
-.innehall h2{}
-.innehall .kolumner-3 .burgare{}
-.innehall .kolumner-3 .burgare img{}
-.innehall .kolumner-3 .burgare p{}
+.innehall {}
 
+.innehall h2 {
+
+  font-size: 40px;
+  font-weight: 400;
+
+}
+
+.innehall .kolumner-3 {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+
+}
+
+.innehall .kolumner-3 .burgare {
+
+  background-color: #f5ebdc;
+  text-align: center;
+  border-radius: 10px;
+height: 150px;
+}
+
+.innehall .kolumner-3 .burgare:hover {
+
+  height: 400px;
+  transition-duration: 500ms;
+
+}
+
+.innehall .kolumner-3 .burgare img {
+
+  width: 300px;
+
+}
+
+.innehall .kolumner-3 .burgare p {
+
+font-size: 25px;
+
+}
+
+p.fix{
+
+margin-top: 60px;
+
+}
