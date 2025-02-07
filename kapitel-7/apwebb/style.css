@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+
 html {
     box-sizing: border-box;
 }
@@ -29,40 +32,112 @@ img {
 
 /* Sidans layout */
 
+
+body {
+
+    background-image: url(./chris-abney-qLW70Aoo8BE-unsplash\ \(1\).jpg);
+
+
+}
+
 .kontainer {
     width: 1000px;
     display: grid;
     margin: auto;
-    grid-template-columns:3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud oujnb"
-    "innehall sidebar "
-    "sidfot bajs "
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "sidhuvud oujnb"
+        "innehall sidebar "
+        "sidfot bajs "
 
     ;
+
+    gap: 20px;
+
 }
 
 header {
 
     grid-area: sidhuvud;
 
-    background-color: cadetblue;
-
 }
 
-main {
-grid-area: innehall;
-    background-color: rgb(101, 84, 63);
 
+main {
+    grid-area: innehall;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px;
 }
 
 aside {
-grid-area: sidebar;
-    background-color: blue;
-
+    grid-area: sidebar;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 footer {
-grid-area: sidfot;
-    background-color: aqua;
+    grid-area: sidfot;
+    background-color: #ffffff90;
+    border-radius: 15px;
+
+    padding: 20px;
 }
+
+
+
+/* sidhuvud */
+
+header h1 {
+    font-family: "Freckle Face", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+    color: #fff;
+}
+
+header h2 {
+
+    font-family: "Freckle Face", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    color: #fff;
+}
+
+
+header nav {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background: rgb(107,206,39);
+background: linear-gradient(0deg, rgba(107,206,39,1) 32%, rgba(184,255,111,1) 58%, rgba(138,204,2,1) 85%);
+
+padding: 10px;
+
+}
+
+
+header nav a {
+
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+
+
+}
+
+
+header nav a:hover {}
+
+/* /* sidans innehåll  */
+
+/* sidofält */
+
+
+/* sidfoten */
