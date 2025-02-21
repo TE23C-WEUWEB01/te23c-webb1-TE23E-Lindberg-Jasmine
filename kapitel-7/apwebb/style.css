@@ -40,21 +40,59 @@ body {
 
 }
 
-.kontainer {
-    width: 1000px;
-    display: grid;
-    margin: auto;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        "sidhuvud oujnb"
-        "innehall sidebar "
-        "sidfot bajs "
 
-    ;
 
-    gap: 20px;
+/* Responsiv layout *
+/* små enheter bredd < 576px  */
+@media (min-width: 567px) {
+    .kontainer {
+        width: 100%;
+        display: grid;
+        margin: auto;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "sidhuvud "
+            "innehall"
+             "sidebar "
+            "sidfot  "
+        ;
+        gap: 20px;
+    }
+}
+
+/* mellan enheter bredd < 576px< 768  */
+@media (min-width: 768px) {
+    .kontainer {
+        width: 100%;
+        display: grid;
+        margin: auto;
+        grid-template-columns: auto 200px;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar "
+            "sidfot sidfot "
+        ;
+        gap: 20px;
+    }
+}
+
+/*  stora enheter bredd > 1280  */
+@media (min-width: 1280) {
+    .kontainer {
+        width: 1280px;
+        display: grid;
+        margin: auto;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar "
+            "sidfot sidfot "
+        ;
+        gap: 20px;
+    }
 
 }
+
 
 header {
 
@@ -113,10 +151,10 @@ header nav {
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    background: rgb(107,206,39);
-background: linear-gradient(0deg, rgba(107,206,39,1) 32%, rgba(184,255,111,1) 58%, rgba(138,204,2,1) 85%);
+    background: rgb(107, 206, 39);
+    background: linear-gradient(0deg, rgba(107, 206, 39, 1) 32%, rgba(184, 255, 111, 1) 58%, rgba(138, 204, 2, 1) 85%);
 
-padding: 10px;
+    padding: 10px;
 
 }
 
