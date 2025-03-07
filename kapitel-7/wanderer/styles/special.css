@@ -2,6 +2,7 @@
 .wanderer{
 
     background-color: black;
+    color: #fff;
 
 }
 
@@ -29,4 +30,37 @@
     left:50%;
     transform: translate(-50%, -50%);
     border: none;
+}
+
+.wanderer main{
+
+display:grid;
+align-items: center;
+
+}
+
+
+.PSO h1{
+
+color: #575c76;
+
+}
+
+
+.PSO nav a{
+
+color: #575c76;
+
+}
+
+.container header a:hover {
+
+    border-bottom: 2px solid #575c76;
+
+}
+
+.PSO header a:active {
+
+    border-bottom: 2px solid #575c76;
+
 }
