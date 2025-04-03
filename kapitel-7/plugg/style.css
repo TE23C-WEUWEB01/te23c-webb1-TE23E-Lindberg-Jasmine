@@ -1,0 +1,38 @@
+
+body{
+
+background-color: #28413b;
+color: #fff;
+width: 800px;
+margin: auto;
+
+}
+
+.kontainer h1{
+
+margin-left: 200px;
+
+
+}
+
+.kontainer header {}
+
+.kontainer header nav a{
+
+
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2f4d44;
+    padding: 10px;
+    width: 140px;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 3px 3px 0 #999;
+    margin-left: 10px;
+
+}
+
+
+
+
