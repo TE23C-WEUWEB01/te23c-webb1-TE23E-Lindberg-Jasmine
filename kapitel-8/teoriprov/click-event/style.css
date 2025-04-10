@@ -1,0 +1,29 @@
+.kontainer{
+
+width: 800px;
+margin: auto;
+padding: 30px;
+background: #a09999;
+
+
+visibility: visible;
+
+}
+
+
+
+p{
+
+visibility: hidden;
+
+
+}
+
+img{
+
+visibility: hidden;
+margin: 50px;
+width: 200px;
+display: block;
+
+}
